@@ -11,7 +11,7 @@ $(function () {
 
     $('h1').on({
 
-        'click': function () {
+        'mouseenter': function () {
             $(this).css('color', 'orange');
         },
         'mouseleave': function () {
